@@ -221,7 +221,7 @@ template<class T> class BinarySearchTree
 		}
 	}
 
-	// VERIFY BST   (not working... argh)
+	// VERIFY BST 
   	template <class T> bool BinarySearchTree<T>::verifyBinarySearchTree() const {
 		isBST( root );
 	}
